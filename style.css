@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient( to top, rgba(20, 12, 0, 0.8) 10%,rgba(20, 12, 0, 0.8) 10%), url(panther.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+} 
+.navbar{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 75px;
+}
+.logo{
+    color: #d88e04;
+    font-size: 35px;
+    font-family: papyrus;
+    font-style: italic;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 75px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:  peachpuff;
+    font-family: papyrus;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #d88e04;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 400px;
+}
+.srch{
+    font-family: papyrus;
+     font-style: italic;
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #d88e04;
+     border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-radius: 3px;
+    margin-top: 27px;
+    color: peachpuff;
+    float: left;
+    padding: 10px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background: #d88e04;
+    border: 2px solid #d88e04;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 27px;
+    margin-left: 0px;
+    color: peachpuff;
+    font-family: papyrus;
+    font-style: italic;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: none;
+    margin: auto;
+    color: peachpuff;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: papyrus;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: papyrus;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    font-family: papyrus;
+    letter-spacing: 1.2px;
+    width: 160px;
+    height: 40px;
+    background: #d88e04;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: peachpuff;
+    font-size: 18px;
+    transition: 3s ease;
+    font-family: papyrus;
+    font-style: italic;
+}
+.content .cn:hover{
+    background: peachpuff;
+}
+.content span{
+    color: #d88e04;
+    font-size: 100px;
+}
+.form{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(20, 12, 0, 0.8) 10%,rgba(20, 12, 0, 0.8) 10%), url(panther.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 300px;
+    left: 1070px;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding:  20px;
+    
+}
+.form h2{
+    text-align: center;
+    color: peachpuff;
+    padding: 10px;
+    font-family: papyrus;
+    font-style: italic;
+    margin: 2px;
+}
+.form input{
+    width: 240px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #d88e04;
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: peachpuff;
+    font-family: papyrus;
+    font-style: italic;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: peachpuff;
+    font-family: papyrus;
+    font-style: italic;
+}
+.btnn{
+    width: 300px;
+    height: 40px;
+    background: #d88e04;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    color: peachpuff;
+    font-family: papyrus;
+    font-style: italic;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: peachpuff;
+    color: #d88e04;
+}
+.btnn a{
+    text-decoration: none;
+    color: peachpuff;
+    font-family: papyrus;
+    font-style: italic;
+}
+.form .link{
+    font-size: 12px;
+    color: peachpuff;
+    padding-top: 10px;
+    text-align: center;
+    font-family: papyrus;
+    font-style: italic;
+}
+.form .link a{
+    color: #d88e04;
+    text-decoration: none;
+}
+.liw{
+    color: peachpuff;
+    font-family: papyrus;
+    font-style: italic;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: peachpuff;
+    font-size: 14px;
+    font-family: papyrus;
+    font-style: italic;
+}
+.icon ion-icons{
+    color: #d88e04;
+    font-size: 100px;
+    padding-top: 5px;
+    padding-left: 14px;
+    transition: 0.3s ease;
+    width: 150px;
+    height: 150px;
+}
+.icon ion-icons:hover{
+    color: peachpuff;
+}
